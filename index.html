@@ -246,10 +246,9 @@
                 <span class="author-block">
                   <a href="#" target="_blank">Miguel Rojas</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="#" target="_blank">Mauricio Araya</a><sup>1</sup>,</span>
+                  <a href="#" target="_blank">Ignacio Ávila S.</a><sup>1</sup></span>
                 <span class="author-block">
-                  <a href="#" target="_blank">Ignacio Ávila S.</a><sup>1</sup>
-                </span>
+                  <a href="#" target="_blank">Mauricio Araya</a><sup>1</sup>,</span>
               </div>
 
               <div class="is-size-5 publication-authors">
@@ -341,8 +340,8 @@
   <div class="columns is-centered has-text-centered" style="margin-top: 50px;">
     <div class="column is-full-width">
       <img src="static/images/recording_architecture_2.jpg" alt="iCub-LeRobot System Architecture" style="width: 50%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <h2 class="subtitle has-text-centered" style="margin-top: 15px; font-size: 1.1rem; color: #555;">
-        Overview of the iCub-LeRobot system architecture bridging the Meta Quest 2 VR interface and the robot execution layer.
+      <h2 class="subtitle has-text-centered has-text-justified" style="max-width: 80%; margin: 15px auto 0; font-size: 1.1rem; color: #555;">
+        Overview of the <b>iCub-LeRobot</b> system architecture for human-guided sensorimotor learning. The framework establishes a bidirectional, low-latency communication bridge (ZeroMQ) between the Meta Quest 2 VR interface and the robot execution layer. A shared feature space allows for seamless switching between the MuJoCo digital twin and the physical iCub via YARP. The synchronized multimodal streams (proprioception, vision, and tactile feedback) are natively formatted into the LeRobot dataset ecosystem for training foundational Vision-Language-Action (VLA) models.
       </h2>
     </div>
   </div>
@@ -352,14 +351,11 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
+      <video poster="" id="tree" autoplay controls muted loop style="display: block; margin: 0 auto; max-width: 100%; border-radius: 10px;" preload="metadata">
         <source src="static/videos/demo_1.mp4" type="video/mp4">
       </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      <h2 class="subtitle has-text-centered" style="margin-top: 20px;">
+        Teleoperation of the physical iCub robot using the Meta Quest 2 VR interface.
       </h2>
     </div>
   </div>
