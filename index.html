@@ -290,10 +290,10 @@
                   </span>
 
                   <span class="link-block">
-                      <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://huggingface.co/TU_USUARIO/TU_DATASET" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
-                        <i class="fa-brands fa-hugging-face"></i>
+                        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" style="width: 1em; height: 1em;">
                       </span>
                       <span>Dataset</span>
                     </a>
@@ -321,7 +321,7 @@
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
+      <div class="column is-10">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -337,27 +337,33 @@
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-11">
-        <img src="static/images/recording_architecture_2.jpg" alt="iCub-LeRobot System Architecture" style="width: 50%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
+      <div class="column is-10">
+        <img src="static/images/recording_architecture_2.jpg" alt="iCub-LeRobot System Architecture" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
         
-        <h2 class="subtitle has-text-centered has-text-justified" style="margin-top: 15px; font-size: 1.1rem; color: #555;">
-          Overview of the <b>iCub-LeRobot</b> system architecture for human-guided sensorimotor learning. The framework establishes a bidirectional, low-latency communication bridge (ZeroMQ) between the Meta Quest 2 VR interface and the robot execution layer. A shared feature space allows for seamless switching between the MuJoCo digital twin and the physical iCub via YARP. The synchronized multimodal streams (proprioception, vision, and tactile feedback) are natively formatted into the LeRobot dataset ecosystem for training foundational Vision-Language-Action (VLA) models.
-        </h2>
+        <div class="content has-text-justified" style="margin-top: 15px;">
+          <p>
+            Overview of the <b>iCub-LeRobot</b> system architecture for human-guided sensorimotor learning. The framework establishes a bidirectional, low-latency communication bridge (ZeroMQ) between the Meta Quest 2 VR interface and the robot execution layer. A shared feature space allows for seamless switching between the MuJoCo digital twin and the physical iCub via YARP. The synchronized multimodal streams (proprioception, vision, and tactile feedback) are natively formatted into the LeRobot dataset ecosystem for training foundational Vision-Language-Action (VLA) models.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<section class="section hero teaser">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop style="display: block; margin: 0 auto; max-width: 100%; border-radius: 10px;" preload="metadata">
-        <source src="static/videos/demo_1.mp4" type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered" style="margin-top: 20px;">
-        Teleoperation of the physical iCub robot using the Meta Quest 2 VR interface.
-      </h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-10">
+        <video poster="" id="tree" autoplay controls muted loop style="display: block; margin: 0 auto; max-width: 100%; border-radius: 10px;" preload="metadata">
+          <source src="static/videos/demo_1.mp4" type="video/mp4">
+        </video>
+        <div class="content has-text-centered" style="margin-top: 15px;">
+          <p>
+            Teleoperation of the physical iCub robot using the Meta Quest 2 VR interface.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -481,12 +487,16 @@
 <!--End BibTex citation -->
 
 <section class="section" id="Acknowledgments">
-  <div class="container is-max-desktop content">
-    <h2 class="title is-3">Acknowledgments</h2>
-    <div class="content has-text-justified">
-      <p>
-        This work was supported by ANID grant n°21242761 and FONDEQUIP project EQM190008. The authors acknowledge Ignacio Ávila S., undergraduate student at Universidad Técnica Federico Santa María, for his technical support in the development of the VR teleoperation interface and the execution of the MuJoCo simulation experiments.
-      </p>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <h2 class="title is-3 has-text-centered">Acknowledgments</h2>
+        <div class="content has-text-justified">
+          <p>
+            This work was supported by ANID grant n°21242761 and FONDEQUIP project EQM190008. The authors acknowledge Ignacio Ávila S., undergraduate student at Universidad Técnica Federico Santa María, for his technical support in the development of the VR teleoperation interface and the execution of the MuJoCo simulation experiments.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
